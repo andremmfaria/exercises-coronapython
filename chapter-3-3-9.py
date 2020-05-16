@@ -11,3 +11,4 @@ presidents.insert(1,"Fernando")
 presidents.append("Boris")
 
 print("Number of people on dinner: " + str(len(presidents)))
+print(presidents)
