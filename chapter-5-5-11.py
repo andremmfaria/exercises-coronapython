@@ -5,3 +5,15 @@
 # • Loop through the list.
 # 
 # • Use an if-elif-else chain inside the loop to print the proper ordinal ending for each number. Your output should read "1st 2nd 3rd 4th 5th 6th 7th 8th 9th", and each result should be on a separate line.
+
+numlist = [1,2,3,4,5,6,7,8,9]
+
+for num in numlist:
+    if num is 1:
+        print("1st")
+    elif num is 2:
+        print("2nd")
+    elif num is 3:
+        print("3rd")
+    else:
+        print(str(num)+"th")

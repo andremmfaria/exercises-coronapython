@@ -3,3 +3,11 @@
 # • If the username is 'admin', print a special greeting, such as Hello admin, would you like to see a status report?
 # 
 # • Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
+
+users = ["admin","user1","user2","user3","user4"]
+
+for i in users:
+    if i is "admin":
+        print("Hello admin, do you want me to print a report?")
+    else:
+        print("Hello " + i + " welcome!")
