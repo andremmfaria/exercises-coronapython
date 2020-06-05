@@ -6,3 +6,8 @@
 # import module_name as mn
 # from module_name import *
 
+import chapter_8_8_12
+from chapter_8_8_13 import build_profile
+from chapter_8_8_11 import show_magicians as mg
+import chapter_8_8_14 as bf
+from chapter_8_8_7 import *

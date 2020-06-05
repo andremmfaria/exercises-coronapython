@@ -4,3 +4,13 @@
 # 
 # Print the dictionary that’s returned to make sure all the information was stored correctly.
 
+def build_car(manufacturer,model_name,**cars_info):
+    car = {}
+    car['manufacturer'] = manufacturer
+    car['model_name'] = model_name
+    for key, value in cars_info.items():
+        car[key] = value
+    
+    return car
+car_profile = build_car('ford', 'fiesta', color='red', feaature='hydraulic steering')
+print(car_profile)
